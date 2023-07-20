@@ -13,29 +13,34 @@ nav ul li:hover a {
     border-radius: 30px;
     border-top-right-radius: 0;
 }
-/* CSS */
 .mt-10 a {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
-    text-decoration: none;
+    text-decoration: dotted;
     background-image:linear-gradient(45deg, white) ;
-
     border: 1px solid transparent;
     border-radius: 9999px;
     transition: all 0.3s ease;
   }
   
-  .mt-10 a:hover {
-    background-color: white;
-    color: #48505A; /* Warna teks berubah menjadi warna background */
+.mt-10 a:hover {
+    font-weight: bolder;
+    display: inline-block;
+    text-decoration:dotted;
+    padding: 10px 20px;
+    color: #060606;
+    background-image: linear-gradient(45deg, #ffffff, #ffffff);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
   }
   
-  .mt-10 a:last-child {
+.mt-10 a:last-child {
     position: relative;
   }
   
-  .mt-10 a:last-child::after {
+.mt-10 a:last-child::after {
     content: '';
     position: absolute;
     top: 0;
@@ -47,7 +52,7 @@ nav ul li:hover a {
     transition: opacity 0.3s ease;
   }
   
-  .mt-10 a:last-child:hover::after {
+.mt-10 a:last-child:hover::after {
     opacity: 1;
   }
 img {
